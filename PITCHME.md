@@ -29,13 +29,13 @@
 - Customer Registered?
 - Made a Subscription?
 +++
-# Types of Referral ('til now... finger-crossed)
+## Types of Referral ('til now... finger-crossed)
 - via SMS
 - via Membership Landing Page website (membership.usetada.com/wtv)
 - via Subdomain Website (demo.tada.st)
 - via Subscription ?
 ---
-# Show me the Tables
+## Show me the Tables
 - Perk(RewardProgramId...)
 - RewardPrograms(RewardedCardProgramId, AdvocateCardProgramId, type[membership, referral, referral_subdomain, ...], initiator[perk, subd..])
 - RewardWhitelists(phone, isRewarded, ...)
