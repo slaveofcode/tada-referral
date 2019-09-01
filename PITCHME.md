@@ -36,6 +36,7 @@
 - via Subscription ?
 ---
 ## Show me the Tables
+```
 - Perk(RewardProgramId...)
 - RewardPrograms(RewardedCardProgramId, AdvocateCardProgramId, type[membership, referral, referral_subdomain, ...], initiator[perk, subd..])
 - RewardWhitelists(phone, isRewarded, ...)
@@ -49,8 +50,9 @@
 - ReferralCodes...
 - RewardUnregisterCommissions ?
 - and others...
+```
 --- 
-# Legacy Referral Code Base
+## Legacy Referral Code Base
 - Placed on `/lib/reward_program` directory
 - There are 3 different subdirectory `referral`, `membership`, `attachment`
 - `referral` holds all about the referral logic, commission topup and the common referral utils
@@ -72,7 +74,7 @@
 - Attaching specific function into some transaction event like order, topup, etc.
 - If the action like Topup is happen, it will trigger the function
 ---
-# Commission Calculation
+## Commission Calculation
 1. Commission handler is placed on `lib/reward_program/referral/commission`
 2. Calculation follows the rules & reward from commission criteria (The commission matcher).
 3. Generator Commission will do topup for the reward `lib/reward_program/referral/commission/generator.js`
