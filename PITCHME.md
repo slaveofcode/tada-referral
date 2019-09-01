@@ -18,7 +18,7 @@
 # Ok, let be more serious Now!
 +++
 # The FLOW of Referral Program (Origin story)
-- Admin setup Reward Program (and Commission) on AVBO
+- Admin setup Reward Program (and Commissions) on AVBO
 - Make a Perk for it
 - Select the Reward Program 
 - Publish...
@@ -29,7 +29,7 @@
 - Customer Registered?
 - Made a Subscription?
 +++
-# Types of Referral (until now... finger-crossed)
+# Types of Referral ('til now... finger-crossed)
 - via SMS
 - via Membership Landing Page website (membership.usetada.com/wtv)
 - via Subdomain Website (demo.tada.st)
@@ -65,13 +65,25 @@
 +++
 # User Relationship
 - Made a relationship through `RewardReferralUsers` using card as identifier
-- Then continue to reward program 
-- and commission criteria
+- Then continue to reward program, checking the card program of advocate etc.
+- Then check on commission criterias
 ---
 # Event Trigger Function
 - Attaching specific function into some transaction event like order, topup, etc.
+- If the action like Topup is happen, it will trigger the function
 ---
 # Commission Calculation
-1. Calculator Commission
-2. Generator Commission, following the rules & reward from commission criteria.
-3. Recording the rewarded commission.
+1. Commission handler is placed on `lib/reward_program/referral/commission`
+2. Calculation follows the rules & reward from commission criteria (The commission matcher).
+3. Generator Commission will do topup for the reward `lib/reward_program/referral/commission/generator.js`
+4. Recording the rewarded commission.
+
++++
+# Type of Commission Item
+- Balance
+- Point Balance
+- Egift
+- Subscription ?
+
+---
+# Thank You
