@@ -5,7 +5,8 @@
 # The History of Referral
 - Start from a Membership feature (Tambah Member)
 - Starting from a simple **Perk** feature
-- Referral only on perk using SMS media
+- Referral only works on perk using SMS media
+- Simple...
 ---
 # And then...
 - The Hype was begin...
