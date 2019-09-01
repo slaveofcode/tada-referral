@@ -17,7 +17,7 @@
 ---
 # Ok, let be more serious Now!
 +++
-# The FLOW of Referral Program (Origin story)
+## The FLOW of Referral Program (Origin story)
 - Admin setup Reward Program (and Commissions) on AVBO
 - Make a Perk for it
 - Select the Reward Program 
