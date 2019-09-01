@@ -1,7 +1,3 @@
----
-marp: true
----
-
 # TADA Referral
 @engineer_session
 
