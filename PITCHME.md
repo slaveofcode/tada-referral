@@ -8,6 +8,8 @@
 - Referral only on perk using SMS media
 ---
 # And then...
+- The Hype was begin...
+- .. the Company starting to be more focused on **REFERRAL**
 - It's started to be Separated from Membership
 - The benefit of thinking BIG from the beginning
 - Not related anymore with Membership Whitelist data
